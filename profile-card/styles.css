@@ -1,0 +1,88 @@
+.top{
+   position: absolute;
+   left: -8%;
+   top: -25%;
+}
+
+.bottom {
+    position:absolute;
+    right: -5%;
+    bottom: -35%;
+}
+   
+.card {
+    display:block;
+    
+    margin-left: auto;
+	margin-right: auto;
+	
+    border-radius: 10px;
+    
+    margin-top: 15%;
+    max-width: 17%;
+    
+    background-color: #fff;
+    color: #000000;
+}
+.background {
+    
+    width:100%;
+}
+.avatar {
+    position: absolute;
+    right: 48%;
+    top: 35%;
+    border-radius: 50%; 
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.name{
+    font-weight: bold;
+}
+.age{
+    margin-left: 5%;
+}
+.location{
+    margin-left: 38%;
+    margin-top: -3%;
+}
+html{
+   background-color:  hsl(185, 75%, 39%);
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.follower-amount {
+    display: flex;
+    flex-direction: column;
+    
+}
+.number{
+    font-weight: bold;
+
+}
+.followers {
+    margin-top: -10%;
+}
+.like-amount {
+    display: flex;
+    flex-direction: column;
+}
+.likes{
+    margin-top: -10%;
+}
+.photo-amount {
+    display: flex;
+    flex-direction: column;
+}
+.photos{
+    margin-top: -10%;
+}
